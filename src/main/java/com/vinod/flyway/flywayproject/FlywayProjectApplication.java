@@ -8,6 +8,8 @@ public class FlywayProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FlywayProjectApplication.class, args);
+		System.out.println("Exiting from main class");
+		System.exit(0);
 	}
 
 }
